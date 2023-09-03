@@ -5,7 +5,7 @@ ENV SHELL /bin/bash
 
 WORKDIR /jetson-inference
 
-RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 42D5A192B819C5DA
+# RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 42D5A192B819C5DA
 RUN apt-get update
 
 # Install the Rust toolchain.
